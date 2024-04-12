@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  font-family: Roboto,Arial;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  border: 1px solid grey;
+  padding-left: 2%;
+  padding-bottom: 3%;
+  
+ 
+}
+.container h2{
+  color: green;
+  margin: 25px;
+}
+
+.container img{
+  width: 30%;
+  margin: 10px 25px;
+  flex-wrap: wrap;
+}
+
+.container .clothe-info .quantity h3{
+  color: darkred;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.container .clothe-info {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.flex-box{
+  display: flex;
+  align-items: center;
+}
+
+.clothe-info p{
+  font-size: 16px;
+ 
+}
+
+.clothe-info .quantity{
+  margin-top: 18px;
+  margin-left: 18px;
+}
+
+.clothe-info .quantity .item{
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+  
+}
+
+.save-delete button{
+  background-color: white;
+  display: flex;
+  padding: 3px 20px;
+  margin-left: 2px;
+  border: 1px solid rgb(181, 179, 179);
+  align-items: flex-start;
+  margin-right: 8px;
+}
+
+.save-delete span{
+  color: rgb(10, 135, 213);
+  margin-right: 4px;
+}
+
+.sec-flex {
+  margin: 20px 0 0 25px ;
+  
+}
+
+.sec-flex .choose-delivery{
+  font-weight: 600;
+  font-size: 18px;
+}
